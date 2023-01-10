@@ -1,26 +1,39 @@
-/* # Front-end Style Guide
+/*
+- Weights: 400, 700
+ */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-## Layout
+:root {
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+}
 
-The designs were created to the following widths:
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--LightGray);
+    width: 100vw;
+    height: 100vh;
+    margin: auto 0;
+    
+}
+#QRImage {
+ 
+    width: 250px;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-- White: hsl(0, 0%, 100%)
-- Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
-- Dark blue: hsl(218, 44%, 22%)
-
-## Typography
-
-### Body Copy
-
-- Font size (paragraph): 15px
-
-### Font
-
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
-- Weights: 400, 700 */
+    width: 350px;
+    height: 450px;
+    background-color: var(--White);
+}
