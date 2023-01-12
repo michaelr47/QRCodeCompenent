@@ -15,7 +15,7 @@
 body {
     font-family: 'Outfit', sans-serif;
     background-color: var(--LightGray);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     gap: 1em;
     flex-direction: column;
@@ -57,9 +57,9 @@ h1 {
     color: var(--DarkBlue);
 }
 p {
-    font-size: 15px; 
+    font-size:  0.9375em; 
     color: var(--GrayishBlue);
     margin-bottom: 20px;
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 0.6875em; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
