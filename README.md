@@ -20,8 +20,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ![](./images/desktopVersion.png)
 ### Links
 
-- Solution URL: [GitHub](https://github.com/michaelr47/QRCodeComponent)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+- Live Site URL: [QR Component](https://michaelr47.github.io/QRCodeComponent/)
 
 
 ### Built with
