@@ -17,6 +17,7 @@ body {
     background-color: var(--LightGray);
     height: 100vh;
     display: flex;
+    gap: 1em;
     flex-direction: column;
     justify-content: center;
   
@@ -51,11 +52,14 @@ body {
 }
 h1 {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.4em;
     margin-bottom: 15px;
+    color: var(--DarkBlue);
 }
 p {
     font-size: 15px; 
     color: var(--GrayishBlue);
     margin-bottom: 20px;
 }
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
