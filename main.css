@@ -40,7 +40,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 305px;
+    max-width: 305px;
     height: 480px;
     background-color: var(--White);
     border-radius: 20px;
